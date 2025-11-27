@@ -1,0 +1,10 @@
+/* min-width:992px */
+
+div.all_places {
+    max-width: 1200px;
+}
+
+div.single_place {
+    width: 23%;
+
+}
