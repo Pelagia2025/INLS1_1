@@ -181,3 +181,60 @@ section.comments .single_comments :last-child {
     text-align: center;
     color: #4917a6;
 }
+
+
+/* faq */
+section.faq {
+    padding: 10px;
+}
+
+div.accordion {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div.box {
+    margin: 10px;
+    border-top: 1px solid black;
+}
+
+div.box:last-child {
+    border-bottom: 1px solid black;
+}
+
+button.accordion_btn {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+button.accordion_btn:hover {
+    cursor: pointer;
+}
+
+.info {
+    display: none;
+}
+
+.active {
+    display: none;
+}
+
+.active_box {
+    display: block;
+}
+
+div.accordion {
+    max-width: 728px;
+}
+
+.active_arrow {
+    transform: rotate(180deg);
+}
